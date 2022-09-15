@@ -14,6 +14,10 @@ config/name="Video Aula"
 run/main_scene="res://scenes/world.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+global="*res://scripts/global.gd"
+
 [display]
 
 window/size/width=320

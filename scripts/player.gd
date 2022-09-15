@@ -22,7 +22,7 @@ func _physics_process(delta) -> void:
   direction = getDirection();
   movePlayer(direction, delta);
 
-  move_and_collide(motion);
+  var _ok = move_and_collide(motion);
   
   return;
   
